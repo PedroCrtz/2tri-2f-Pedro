@@ -13,11 +13,13 @@
 }
 .menu-lista{
     display: none;
+    position: absolute;
+    width: 60vh;
+    text-transform: uppercase;
 }
 
 .seletor-menu:checked ~ .menu-lista{
     display: block;
-    position: absolute;
 }
 .menu-lista-item, .menu-lista-titulo{
     background-color: white;
